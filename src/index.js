@@ -3,8 +3,8 @@ import StarterKit from '@tiptap/starter-kit';
 import Typography from '@tiptap/extension-typography';
 import BubbleMenu from '@tiptap/extension-bubble-menu';
 
-const editorElement = document.querySelector('.editor') as HTMLElement;
-const menuElement = document.querySelector('.editor-menu') as HTMLElement;
+const editorElement = document.querySelector('.editor');
+const menuElement = document.querySelector('.editor-menu');
 
 new Editor({
   editorElement,
